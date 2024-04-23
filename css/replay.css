@@ -1,0 +1,47 @@
+.title{
+    width: 100%;
+    text-align: center;
+    margin: 80px auto 5px;
+}
+.title em{
+    background-color: rgb(45, 45, 255);
+    border-radius: 5px;
+    font-style: normal;
+    padding: 0 5px;
+}
+/*game table*/
+.game{
+    margin: auto;
+    width: 400px;
+    height: 360px;
+    background: rgb(45, 45, 255);
+    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.479);
+    padding: 1.5rem;
+}
+.grid-row{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    column-gap: 10px;
+    margin: 10px 0;
+}
+.grid-elem{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.inputs{
+    margin: 10px auto;
+    width: 125px;
+}
+.inputs button{
+    display: inline-block;
+}
+
+#oldMove{
+    transform: rotate(180deg);
+}

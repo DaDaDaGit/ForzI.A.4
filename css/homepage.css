@@ -1,0 +1,56 @@
+/*cards*/
+.cards{
+    max-width: 1200px;
+    margin-top: 90px;
+    margin-left: 2.5%;
+}
+.card{
+    float: left;
+    width: 25%;
+    margin: 0 4%;
+    background-color: #fff;
+    padding-bottom: 15px;
+}
+.card-img{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+.card-txt{
+    padding: 0 20px;
+    margin-bottom: 5px;
+}
+.card-txt .readMore{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.card-txt p{
+    margin-bottom: 20px;
+}
+.card-txt .button{
+    border: 1px solid blue;
+    margin: 0px;
+}
+.card-txt h3{
+    margin: 0px;
+}
+#more,#readMore.show{
+    display: none;
+}
+#more.show, #readMore{
+    display: block;
+}
+
+/*------------------------/
+        smartphone
+-------------------------*/
+@media(max-width:767px){
+
+/*cards*/
+.card{
+    width: 90%;
+    margin: 5%;
+}
+
+}
+

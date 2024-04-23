@@ -1,0 +1,92 @@
+/*title*/
+.title{
+    display: inline-block;
+    width: 100%;
+}
+.title .big-text{
+    margin: 80px 0 10px 0;
+    float: left;
+}
+.title a{
+    float: right;
+    margin: 105px 35px 10px 0;
+    width: 80px;
+    text-align: center;
+}
+.mid-text{
+    margin: 0px 0 10px 0;
+}
+/*cards*/
+.cards{
+    max-width: 1200px;
+    margin-left: 10px;
+    height: 300px;
+}
+.card{
+    float: left;
+    width: 25%;
+    margin: 0 2%;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid blue;
+}
+.card h3{
+    font-weight: 800;
+    margin: 5px 0 5px 0;
+}
+p{
+    font-weight: bold;
+}
+.win{
+    color: blue;
+}
+.lost{
+    color: red;
+}
+
+#elencoPartite{
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+    font-size: large;
+    width: 90%;
+    margin: 0 2%;
+}
+th{
+    border: 1px solid black; 
+    background-color: blue;
+    color: #fff;
+    font-weight: bolder;
+    height: 30px;
+}
+td{
+    border: 1px solid blue; 
+    font-weight: normal;
+}
+
+/*------------------------/
+        smartphone
+-------------------------*/
+@media(max-width:830px){
+    .title a{
+        float: left;
+        clear: both;
+        margin: 5px 5px;
+    }
+    
+    .card{
+        margin: 2px;
+    }
+
+    table{
+        width: 100%;
+        margin: 0;
+    }
+    
+    
+    }
+    

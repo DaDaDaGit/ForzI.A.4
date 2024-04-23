@@ -1,0 +1,38 @@
+.form-container{
+    margin: 100px auto;
+    border-radius: 5px;
+    border: 2px solid blue ;
+    padding: 20px;
+    width: 300px;
+    background-color: #fff;
+}
+
+form *{
+    display: block;
+}
+h2{
+    margin: 10px 0px;
+}
+label,input{
+    margin: 0 0 5px 0;
+    border-radius: 5px;
+    width: 280px;
+    height: 20px;
+}
+input:invalid{
+    border: 2px solid red;
+}
+form .button{
+    margin-top: 10px;
+    font-size: 16px;
+    border-color: blue;
+}
+
+.error-txt{
+    display: none;
+    color: red;
+}
+.showError{
+    display: block;
+}
+
