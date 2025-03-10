@@ -43,15 +43,15 @@ mv nome-progetto /opt/lampp/htdocs/
 ```
 Oppure spostala manualmente nella cartella htdocs.
 
-⚙️ 3. Avviare XAMPP
+⚙️ 3. Avviare XAMPP  
 1️⃣ Apri XAMPP Control Panel  
 2️⃣ Avvia i moduli Apache e MySQL  
 
-🛠️ 4. Configurare il Database
+🛠️ 4. Configurare il Database  
 1️⃣ Apri il browser e vai su http://localhost/phpmyadmin/  
 2️⃣ Crea un nuovo database con il nome paroli_616954.sql  
 3️⃣ Importa il file SQL fornito  
 
-🌐 5. Eseguire il Progetto nel Browser
+🌐 5. Eseguire il Progetto nel Browser  
 Apri il browser e visita: http://localhost/ForzI.A.4/
 
