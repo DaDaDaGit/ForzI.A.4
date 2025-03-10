@@ -23,8 +23,35 @@ Benvenuto su **ForzI.A.4**, un sito web dove puoi sfidare un amico o l'intellige
 🔹 **Intelligenza Artificiale:** Algoritmo Minimax
 🔹 **Database:** MySQL 
 
-## 🚀 Come avviare il progetto?  
+# 📌 Installazione e Configurazione con XAMPP
 
-Per far funzionare il sito è necessario importare il DB paroli_616954.sql
+Benvenuto! Segui questi passaggi per clonare e avviare il progetto utilizzando **XAMPP**.
 
-A quel punto, utilizzando un software (Es. XAMPP) sarà possibile visualizzare il sito nel localhost.
+## 📥 1. Clonare il Repository  
+Apri il terminale o il prompt dei comandi ed esegui:  
+
+```bash
+git clone https://github.com/DaDaDaGit/ForzI.A.4.git
+```
+Per windows:
+```bash
+mv nome-progetto C:\xampp\htdocs\
+```
+Per Mac/Linux:
+```bash
+mv nome-progetto /opt/lampp/htdocs/
+```
+Oppure spostala manualmente nella cartella htdocs.
+
+⚙️ 3. Avviare XAMPP
+1️⃣ Apri XAMPP Control Panel
+2️⃣ Avvia i moduli Apache e MySQL
+
+🛠️ 4. Configurare il Database
+1️⃣ Apri il browser e vai su http://localhost/phpmyadmin/
+2️⃣ Crea un nuovo database con il nome paroli_616954.sql
+3️⃣ Importa il file SQL fornito
+
+🌐 5. Eseguire il Progetto nel Browser
+Apri il browser e visita: http://localhost/ForzI.A.4/
+
