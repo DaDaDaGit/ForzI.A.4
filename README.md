@@ -18,10 +18,10 @@ Benvenuto su **ForzI.A.4**, un sito web dove puoi sfidare un amico o l'intellige
 
 ## 🛠️ Tecnologie Utilizzate  
 
-🔹 **Frontend:** HTML, CSS, JavaScript
-🔹 **Backend:** PHP 
-🔹 **Intelligenza Artificiale:** Algoritmo Minimax
-🔹 **Database:** MySQL 
+🔹 **Frontend:** HTML, CSS, JavaScript  
+🔹 **Backend:** PHP  
+🔹 **Intelligenza Artificiale:** Algoritmo Minimax  
+🔹 **Database:** MySQL  
 
 # 📌 Installazione e Configurazione con XAMPP
 
@@ -44,13 +44,13 @@ mv nome-progetto /opt/lampp/htdocs/
 Oppure spostala manualmente nella cartella htdocs.
 
 ⚙️ 3. Avviare XAMPP
-1️⃣ Apri XAMPP Control Panel
-2️⃣ Avvia i moduli Apache e MySQL
+1️⃣ Apri XAMPP Control Panel  
+2️⃣ Avvia i moduli Apache e MySQL  
 
 🛠️ 4. Configurare il Database
-1️⃣ Apri il browser e vai su http://localhost/phpmyadmin/
-2️⃣ Crea un nuovo database con il nome paroli_616954.sql
-3️⃣ Importa il file SQL fornito
+1️⃣ Apri il browser e vai su http://localhost/phpmyadmin/  
+2️⃣ Crea un nuovo database con il nome paroli_616954.sql  
+3️⃣ Importa il file SQL fornito  
 
 🌐 5. Eseguire il Progetto nel Browser
 Apri il browser e visita: http://localhost/ForzI.A.4/
